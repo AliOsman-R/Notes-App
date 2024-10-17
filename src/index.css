@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: lato, sans-serif;;
+}
+
+.custom-grid {
+  grid-template-columns: repeat(4, minmax(0, 200px));
+  grid-template-rows: minmax(4rem, auto) repeat(5, 4rem);
+}
+
+.custom-row {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
